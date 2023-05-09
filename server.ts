@@ -11,7 +11,7 @@ import { getCars,createCar } from './db/carController'
 //impotera mongoose och connect funktionen och anväder den med min mongoDB
 import {connect} from 'mongoose'
 //Skaper en anslutning till MongoDB och jag upprättat en databas
-connect('mongodb://localhost:27017/shahad')
+connect('mongodb://127.0.0.1:27017/shahad')
 
 
 //Använder variable app för att arbeta med express
